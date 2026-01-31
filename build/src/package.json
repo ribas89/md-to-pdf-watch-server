@@ -1,0 +1,20 @@
+{
+    "name": "resume-markdown-pdf-watcher",
+    "version": "1.0.0",
+    "description": "A watcher that creates a pdf version of your markdown resume",
+    "license": "ISC",
+    "author": "ribas89",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "watch": "node backend/index.js",
+        "serve": "serve /docs -l tcp://0.0.0.0:3000",
+        "dev": "concurrently \"npm run watch\" \"npm run serve\""
+    },
+    "dependencies": {
+        "chokidar": "^5.0.0",
+        "concurrently": "^9.2.1",
+        "js-yaml": "^4.1.1",
+        "serve": "^14.2.5"
+    }
+}

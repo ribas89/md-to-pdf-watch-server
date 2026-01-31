@@ -1,0 +1,10 @@
+pdfs:
+    pdf1:
+        input: /resumes/ribas89/README.md
+        output: /docs/resume/recruiter.pdf
+        title: "Recruiter resume"
+
+    pdf2:
+        input: /resumes/ribas89-technical/README.md
+        output: /docs/resume/technical.pdf
+        title: "Technical resume"
