@@ -1,0 +1,6 @@
+[submodule "resumes/technical"]
+	path = resumes/technical
+	url = https://git.ribas89.co.uk/ribs/technical-resume.git
+[submodule "resumes/recruiter"]
+	path = resumes/recruiter
+	url = https://git.ribas89.co.uk/ribs/.profile.git

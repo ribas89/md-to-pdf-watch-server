@@ -1,0 +1,10 @@
+pdfs:
+  pdf1:
+    input: /resumes/recruiter/README.md
+    output: /public/download/Jonathan-Ribas-Senior-FullStack-Developer-Resume.pdf
+    title: "Jonathan Ribas Senior FullStack Developer Resume"
+
+  pdf2:
+    input: /resumes/technical/README.md
+    output: /public/download/Jonathan-Ribas-Senior-FullStack-Developer-Technical-Resume.pdf
+    title: "Jonathan Ribas Senior FullStack Developer Technical Resume"
